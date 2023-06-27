@@ -496,6 +496,7 @@ left: 10%;
 #card1{
 background-image: url(./images/projects/discord.png);
 margin-right: 120px;
+
 }
 
 #card2{
@@ -841,7 +842,7 @@ phone device */
     }
 
     .faded-text{
-        font-size: 5rem;
+        font-size: 3rem;
         bottom: -74px;
         left: 0px;
 
@@ -949,65 +950,6 @@ phone device */
 } 
 
 
-/* @media (max-width:1300px) {
-    .page-heading {
-      padding-top: 30px;
-      color: var(--bgOrange);
-      text-align: center;
-      font-size: 40px;
-    }
-    .project-container {
-      padding: 5px;
-      margin: 10px;
-      gap: 60px;
-    }
-    .project-card{
-        width: 48%;
-        height:180px ;
-    }
-    .project-card {
-      background-size: cover;
-      background-position: center;
-    }
-    .project-content {
-      scale: 0.5;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      top: 0;
-    }
-    .project-content-left {
-      left: 0;
-    }
-    .project-content-heading {
-      font-size: 40px;
-      width: 100%;
-    }
-    .project-content-sub-head {
-      width: 100%;
-    }
-    #card2 {
-      margin-left: 0;
-    }
-    #card4 {
-      margin-left: 0;
-    }
-    .project-content-skills {
-      width: 100%;
-    }
 
-    .project-content-skills img{
-        width: 35px;
-    }
-
-
-  
-    .project-card:hover .project-no {
-      display: none;
-    }
-    .project-card:hover .project-content {
-      scale: 0.55;
-    }
-  } */
 
 
