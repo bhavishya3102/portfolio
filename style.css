@@ -354,8 +354,6 @@ left: 5%;
     background-image: url(./images/projects/Project2.png);
     background-size: cover;
     background-position: left;
- 
-    
     width: 90%;
     height: 550px;
     background-repeat: no-repeat;
@@ -490,15 +488,6 @@ left: 10%;
 
 
 
-/* .button{
-    border: 2px solid rgba(220, 215, 215, 0.797);
-}
-.button:hover{
-    border: none;
-} */
-
-
-
 .project-card:hover .project-content{
     transform: scale(1.1);
     transition: all 1s;
@@ -528,7 +517,7 @@ margin-right: 120px;
 /* skills section */
 
 .skills-stack{
-    border: 1px solid red;
+   
     position: relative;
     padding:5rem;
     margin: 10rem auto;
@@ -580,9 +569,6 @@ color:  rgb(182 186 182);
 
 .skill-stack-subhead p{
  margin: 15px 0;
-
-     
-
 }
 
 
@@ -652,11 +638,6 @@ justify-content: center;
 
 }
 
-
-
-
-
-
 .form{
     display: flex;
     flex-direction: column;
@@ -674,31 +655,7 @@ justify-content: center;
     box-shadow: 2px 2px 10px #1f1f1f;
     border: none;
 }
-/* 
-.form input{
- 
-    margin-left: 100px;
-    width: 100%;
-    height: 42px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px gainsboro;
-    border: none;
-} */
 
-
-/* 
-
-.form textarea{
-
-    margin-left: 100px;
-    width: 640px;
-    width: 100%;
-    height: 100px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px gainsboro;
-    border: none;
-  
-} */
 .formfield-textarea{
     height: auto;
     padding: 1rem;
@@ -861,64 +818,13 @@ phone device */
         left: 0px;
 
     }
-    .project-card{
-        width: 48%;
-        height:180px ;
-    }
-
     .footer-left {
         display: flex;
         flex-direction: row;
         gap: 12px;
         float: right;
     }
-    #card1{
     
-        margin-right: 0px;
-        }
-        
-        #card2{
-           
-            margin-left: 0px;
-        }
-        #card3{
-     
-            margin-right:0px ;
-        }
-        #card4{
-        
-            margin-left: 0px;
-        }
-
-        .project-content-skills{
-            width: 90%;
-            gap: 1px;
-        }
-
-        .project-content-heading{
-            font-size: 34px;
-        }
-        
-        .project-content-subhead{
-            font-size: 11px;
-            width: 99%;
-        }
-
-        .project-content{
-            gap:0rem ;
-            padding:0em ;
-            bottom:-13% ;
-            position: absolute;
-        }
-
-
-        .project-content-skills img{
-            width: 29px;
-        }
-        .button{
-            width:110px ;
-            height:31px ;
-        }
 
         .skills-stack{
             display: flex;
@@ -941,11 +847,6 @@ phone device */
             font-size: 15px;
         }
 
-
-
-        .projectno{
-            font-size: 120px;
-        }
 .footer-faddedtext{ font-size: 3em;
     bottom: 33px;
     left: 7px;}
@@ -983,7 +884,9 @@ phone device */
         cursor: pointer;
     }
 
-    
+    .contact-heading{
+        left: -15px;
+    }
     .user-img
     {
         padding: 2.4rem;
@@ -995,7 +898,15 @@ phone device */
         left: 80px;
         top: 20px;
     }
-    
+    .projectno-left, .projectno-right{
+        font-size: 120px;
+    }
+    .projectno-left{
+        left: -15px;
+    }
+    .projectno-right{
+        right: -15px;
+    }
     @keyframes scaleimg {
         0%{
     
@@ -1097,26 +1008,51 @@ phone device */
     }
 
     #card1{
-        background-image: url(./images/projects/studynotion.png);
-        margin-right: 120px;
-        left: 30px;
-        
+    
+        margin-right: 35px;
         }
         
         #card2{
-            background-image: url(./images/projects/razorpay.png);
-            margin-left: 190px;
-            left:30px;
+           
+            margin-left: 35px;
         }
         #card3{
-            background-image: url(./images/projects/password.png); 
-            margin-right:120px ;
-            left:30px;
+     
+            margin-right:35px ;
         }
         #card4{
-            background-image: url(./images/projects/weather.png);
-            margin-left: 120px;
-            left:30px;
+        
+            margin-left: 35px;
+        }
+
+        .project-content-skills{
+            width: 90%;
+            gap: 1px;
+        }
+
+        .project-content-heading{
+            font-size: 34px;
+        }
+        
+        .project-content-subhead{
+            font-size: 11px;
+            width: 99%;
+        }
+
+        .project-content{
+            gap:0rem ;
+            padding:0em ;
+            bottom:-13% ;
+            position: absolute;
+        }
+
+
+        .project-content-skills img{
+            width: 29px;
+        }
+        .button{
+            width:110px ;
+            height:31px ;
         }
         .skill-stack-subhead {
             width: 121%;
@@ -1143,11 +1079,11 @@ phone device */
         }
 
         .contact-subheading {
-            font-size: 3em;
+            font-size: 2em;
             font-style: bold;
             width: 80vw;
             color: #343668aa;
-            padding-left: 40px;
+            padding-left: 10px;
             text-transform: capitalize;
         }
 
@@ -1186,7 +1122,9 @@ phone device */
     /* justify-content: center; */
     
     }
-    
+    .contact-heading{
+        padding-left: 0;
+    }
     /* for animation */
     .role{
         color: #4e45d5;
@@ -1236,7 +1174,7 @@ phone device */
       gap: 60px;
     }
     .project-card{
-        width: 48%;
+        width: 51%;
         height:180px ;
     }
     .project-card {
@@ -1348,8 +1286,7 @@ phone device */
 }
 
 .project-container {
-    padding: 0px;
-    margin: -52px;
+   
     gap: 60px;
 }
 
@@ -1366,14 +1303,8 @@ phone device */
     right: 50%;
 }
 
-.contact-subheading {
-    font-size: 2em;
-    font-style: bold;
-    width: 94vw;
-    color: #343668aa;
-    padding-left: 40px;
-    text-transform: capitalize;
-}
+
+
 
 .formfield {
    width: 89%;
