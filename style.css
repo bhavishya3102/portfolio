@@ -528,9 +528,10 @@ margin-right: 120px;
 /* skills section */
 
 .skills-stack{
+    border: 1px solid red;
     position: relative;
-    padding:5rem ;
-    margin:10rem auto;
+    padding:5rem;
+    margin: 10rem auto;
     gap: 30px;
     display: flex;
     flex-direction: row;
@@ -554,10 +555,6 @@ color:  rgb(182 186 182);
 
 .skill-stack-left{
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
 }
 
 .skill-stack-heading{
@@ -630,8 +627,6 @@ justify-content: center;
     width: 100vw;
     background-color: rgb(231 231 231);
     margin-top: 202px;
-    display: flex;
-    flex-direction: column;
 }
 .contact-heading{
 
@@ -640,7 +635,7 @@ justify-content: center;
     color: red;
     padding-left: 40px;
     padding-top: 2rem;
-
+    margin-left: 8vw;
 
 }
 
@@ -652,7 +647,8 @@ justify-content: center;
     color:#343668aa;
     padding-left: 40px;
     text-transform: capitalize;
-  
+    margin-left: 8vw;
+    margin-bottom: 20px;
 
 }
 
@@ -665,9 +661,8 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 70%;
- 
-    margin: 2rem 5rem;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .formfield{
@@ -707,6 +702,7 @@ justify-content: center;
 .formfield-textarea{
     height: auto;
     padding: 1rem;
+    resize: none;
 }
 
 .button{
@@ -945,9 +941,6 @@ phone device */
             font-size: 15px;
         }
 
-        .form{
-            width: 44%;
-        }
 
 
         .projectno{
@@ -975,7 +968,7 @@ phone device */
 } 
 
 
-@media (max-width:650px) {
+@media (max-width:776px) {
     .nav_links{
         display: flex;
         position: relative;
@@ -1032,7 +1025,10 @@ phone device */
         right: 0;
         animation: dotanim 3s infinite;
     }
-
+.skills-stack{
+    padding: 1rem;
+    border: 1px solid red;
+}
     
     .icon-cube{
         z-index: 8;
@@ -1103,24 +1099,24 @@ phone device */
     #card1{
         background-image: url(./images/projects/studynotion.png);
         margin-right: 120px;
-        left:56px;
+        left: 30px;
         
         }
         
         #card2{
             background-image: url(./images/projects/razorpay.png);
             margin-left: 190px;
-            left:56px;
+            left:30px;
         }
         #card3{
             background-image: url(./images/projects/password.png); 
             margin-right:120px ;
-            left:56px;
+            left:30px;
         }
         #card4{
             background-image: url(./images/projects/weather.png);
             margin-left: 120px;
-            left:56px;
+            left:30px;
         }
         .skill-stack-subhead {
             width: 121%;
@@ -1291,7 +1287,7 @@ phone device */
 
 
 
-  @media (max-width:350px) {
+  @media (max-width:400px) {
  
     .hero-right {
         position: relative;
@@ -1358,7 +1354,7 @@ phone device */
 }
 
 .skill-stack-subhead {
-    width: 91%;
+    width: 110%;
     text-align: justify;
     margin-top: 1rem;
     font-size: 16px;
@@ -1411,5 +1407,78 @@ phone device */
 }
   }
 
+  /*=============================== skillsTech =====================================*/
+.skillsTech{
+    position: relative;
+    padding-inline: 10vw;
+    padding-block: 5vh;
+}
+.skillsTech h1{
+    font-size: 5rem;
+    color: red;
+    margin-left: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.skill-Desc{
+    width: 50%;
+    padding-inline: 2vw;
+}
+.skill-Desc img{
+    margin-inline: 20px;
 
+}
+.skill-Desc p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.skillsTech h2{
+    position: absolute;
+    bottom: -80px;
+    right: 50px;
+    font-size: 8rem;
+    color: #737373;
+}
+@media(max-width: 767px){
+    .skillsTech{
+        padding-inline: 5vw;
+        padding-block: 3vh;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skill-Desc{
+        width: 100%;
+    }
+    .skill-Desc img{
+        margin-inline: 5px;
+        margin-bottom: 10px;
+    
+    }
+    .skillsTech h2{
+       
+        bottom: -50px;
+        right: 30px;
+        font-size: 6rem;
+        
+    }
+    .contact-form{
+        width: 100%;
+        margin-inline: 1.25vw;
+    }
+    
+}
   
+/* ======================== Contact ========================  */
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 70%;
+}
