@@ -93,7 +93,7 @@
     user-select: none;
     font-size: 7rem;
     color: rgb(182 186 182);
-    bottom: -16%;
+    bottom: -19%;
     left: -5%;
     font-weight: bold;
     
@@ -594,6 +594,7 @@ justify-content: center;
 .blob-style{
     position: absolute;
     top: 50%;
+    right: 90%;
     left: 50%;
     z-index: -3;
     animation: blobanim 3s linear infinite;
@@ -1354,10 +1355,12 @@ phone device */
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
+    top: 20px;
 }
 .skill-Desc{
     width: 50%;
     padding-inline: 2vw;
+    top: 6vh;
 }
 .skill-Desc img{
     margin-inline: 20px;
@@ -1369,7 +1372,8 @@ phone device */
 }
 .skillsTech h2{
     position: absolute;
-    bottom: -80px;
+    bottom: -235px;
+    color: rgb(182 186 182);
     right: 50px;
     font-size: 8rem;
     color: #737373;
