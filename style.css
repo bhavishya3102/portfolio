@@ -885,6 +885,12 @@ phone device */
         cursor: pointer;
     }
 
+    .skillsTech h2 {
+        bottom: -218px;
+        right: 7px;
+        font-size: 6rem;
+    }
+
     .contact-heading{
         left: -15px;
     }
@@ -1394,12 +1400,10 @@ phone device */
         margin-bottom: 10px;
     
     }
-    .skillsTech h2{
-       
-        bottom: -50px;
-        right: 30px;
+    .skillsTech h2 {
+        bottom: -218px;
+        right: 7px;
         font-size: 6rem;
-        
     }
     .contact-form{
         width: 100%;
