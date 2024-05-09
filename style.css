@@ -975,7 +975,7 @@ phone device */
 } 
 
 
-@media (max-width:750px) {
+@media (max-width:650px) {
     .nav_links{
         display: flex;
         position: relative;
@@ -1289,3 +1289,127 @@ phone device */
   }
 
 
+
+
+  @media (max-width:350px) {
+ 
+    .hero-right {
+        position: relative;
+        bottom: 381px;
+        margin-right: 414px;
+    }
+
+    .icon-zigzag {
+        z-index: 8;
+        top: 1.5em;
+        left: 3.8em;
+        animation: zigzaganim 5s infinite;
+    }
+
+    @keyframes zigzaganim{
+    50% {
+        left: 10;
+        top: 2%;
+    }
+}
+
+.icon-circle {
+    z-index: 8;
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+    animation: shakeeffect 6s infinite;
+}
+
+.hero-sec-head {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.hero-desc {
+    margin-top: 1rem;
+    width: 41%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.faded-text {
+    font-size: 2.5rem;
+    bottom: -66px;
+    left: 5px;
+}
+
+.project-heading {
+    font-size: 75px;
+    color: red;
+    text-align: center;
+    padding-top: 55px;
+    font-weight: 500;
+    position: relative;
+    top: -58px;
+    left: -9px;
+}
+
+.project-container {
+    padding: 0px;
+    margin: -52px;
+    gap: 60px;
+}
+
+.skill-stack-subhead {
+    width: 91%;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.skill-stack-faddedtext {
+    font-size: 6em;
+    bottom: -12.8%;
+    right: 50%;
+}
+
+.contact-subheading {
+    font-size: 2em;
+    font-style: bold;
+    width: 94vw;
+    color: #343668aa;
+    padding-left: 40px;
+    text-transform: capitalize;
+}
+
+.formfield {
+   width: 89%;
+}
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    float: right;
+    left: -69px;
+    position: relative;
+    font-size: 16px;
+}
+
+.footer-right {
+    position: relative;
+    right: 383px;
+}
+
+.footer-faddedtext {
+    
+    bottom: -5px;
+    
+}
+
+.logo_content {
+    margin-left: -25px;
+    margin-top: 54px;
+    font-size: 2.3rem;
+    display: flex;
+}
+  }
+
+
+  
