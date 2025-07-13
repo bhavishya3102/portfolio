@@ -1,366 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Bhavishya Sachdeva, portfolio, Bhavishya Sachdeva full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Bhavishya Sachdeva Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Bhavishya Sachdeva </title>
+</head>
+<body oncontextmenu="return false">
 
-    <title>Document</title>
-  </head>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
 
-  <body>
-    <div class="wrapper">
-      <div class="container">
-        <div class="navbar">
-          <div class="nav_logo">
-            <div class="logo_img">
-              <i class="fa-sharp fa-solid fa-b fa-2xl"></i>
-            </div>
-            <div class="logo_content">havishya Sachdeva</div>
-          </div>
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"> Bhavishya Sachdeva</a>
 
-          <div class="nav_links">
-            <div><a href="#projects">Projects</a></div>
-            <div><a href="#skills">Skills</a></div>
-            <div><a href="#contactme">Contact Me</a></div>
-          </div>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Bhavishya Sachdeva <span></span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/bhavishya-sachdeva/ " target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/bhavishya3102" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="#"_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="#" target="_blank"><i class="fab fa-dev"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png"   alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.png" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Bhavishya Sachdeva</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>🙋‍♂️I'm Bhavishya Sachdeva,and I specialize in creating captivating websites and applications using ReactJS, NodeJs, JavaScript, and Tailwind. and Here is my portfolio website. Here you'll learn about my journey and a Web developer Experience
+           </p>
+        
+        <div class="box-container">
+             <div class="box">
+              <p><span> phone : </span> +916397632055 </p>
+              <p><span> email : </span> bhavishyasachdeva3102@gmail.com</p>
+              <p><span> place : </span> Saharanpur, Uttar Pradesh, India - 247001</p>
+            </div> 
+           
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1kpBUo5ATEcVdtNQCiW_gBuVouvHW6rwB/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
         </div>
 
-        <div class="hero-section">
-          <div class="faded-text">Bhavishya Sachdeva</div>
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
 
-          <div class="hero-left">
-            <div class="hero-sec-head">Hi! Bhavishya Sachdeva</div>
-            <div class="hero-sec-head hero-sec-subheading">
-              I am a <span class="role"></span>
-            </div>
-            <p class="hero-desc">
-              🙋‍♂️I'm Bhavishya Sachdeva,and I specialize in creating captivating
-              websites and applications using ReactJS, NodeJs, JavaScript, and
-              Tailwind. and Here is my portfolio website. Here you'll learn
-              about my journey and a Web developer Experience
-            </p>
+<!-- skills section starts -->
+<section class="skills" id="skills">
 
-            <div class="button">
-              <div class="btn">
-                <a href="https://www.linkedin.com/in/bhavishya-sachdeva/"
-                  >Hire me</a
-                >
-              </div>
-            </div>
-          </div>
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
-          <div class="hero-right">
-            <div class="absolute icons icon-cube">
-              <img src="./images/userAsset/cube.png" alt="error" />
-            </div>
-            <div class="absolute icons icon-dots">
-              <img src="./images/userAsset/dots.png" alt="error" />
-            </div>
-            <div class="absolute icons icon-circle">
-              <img src="./images/userAsset/circle.png" alt="error" />
-            </div>
-            <div class="absolute icons icon-zigzag">
-              <img src="./images/userAsset/zigzags.png" alt="error" />
-            </div>
-            <div class="absolute icons icon-plus">
-              <img src="./images/userAsset/plus.png" alt="error" />
-            </div>
-            <div class="user-img">
-              <img src="./images/userAsset/bhavishya1.png" alt="error" />
-            </div>
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Master of Computer Application| MCA</h3>
+        <p>KAMLA NEHRU INSTITUTE OF TECHNOLOGY| KNIT</p>
+        <h4>2022-2024 | Completed</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/DishaBharti.webp" alt="">
+      </div>
+      <div class="content">
+      <h3>Bachelor of Computer Application | BCA</h3>
+      <p>Disha Bharti College of Management and Technology Saharanpur</p>
+      <h4>2019-2022 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+     <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
-      <!--==================================== Projects ====================================================== -->
-      <div class="project-section" id="projects">
-        <div class="project-heading">Projects</div>
-        <div class="project-container container">
-          <div class="project-card" id="card1">
-            <div class="projectno projectno-right">01</div>
-            <div class="project-content project-content-left">
-              <div class="project-content-skills">
-                <img src="./images/stack/HTML.png" alt="" />
-                <img src="./images/stack/CSS.png" alt="" />
-                <img src="./images/stack/Javascript.svg" alt="" />
-                <img src="./images/stack/NextJsCircle.png" alt="" />
-                <img src="./images/stack/Tailwind.png" alt="" />
-                <img src="./images/stack/NodeJs.svg" alt="" />
-                <img src="./images/stack/MongoDB.svg" alt="" />
-                <img src="./images/stack/Redux.svg" alt="" />
-                <img src="./images/stack/Vercel.svg" alt="" />
-              </div>
-              <div class="project-content-heading">Study Notion</div>
-              <div class="project-content-subhead">
-                Developed a dynamic Ed Tech platform, providing students with
-                seamless functionalities for course Purchase, Reviews,
-                Transaction History tracking, and an efficient Cart management
-                system.
-              </div>
+    </div> 
 
-              <div class="btn-section">
-                <div class="button">
-                  <div class="btn">Read More</div>
-                </div>
-                <a href="https://github.com/bhavishya3102/StudyNotionEdTech">
-                  <i class="icons fa-brands fa-github"></i>
-                </a>
-                <a href="https://study-notion-taupe-one.vercel.app/">
-                  <i class="icons fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="card2">
-            <div class="projectno projectno-left">02</div>
-            <div class="project-content project-content-right">
-              <div class="project-content-skills">
-                <img src="./images/stack/HTML.png" alt="" />
-                <img src="./images/stack/CSS.png" alt="" />
-                <img src="./images/stack/Javascript.svg" alt="" />
-                <img src="./images/stack/NextJsCircle.png" alt="" />
-                <img src="./images/stack/Tailwind.png" alt="" />
-                <img src="./images/stack/NodeJs.svg" alt="" />
-                <img src="./images/stack/MongoDB.svg" alt="" />
-                <img src="./images/stack/Redux.svg" alt="" />
-                <img src="./images/stack/Vercel.svg" alt="" />
-              </div>
-              <div class="project-content-heading">Razorpay Clone</div>
-              <div class="project-content-subhead">
-                Razorpay Clone App is the main combined installments arrangement
-                organization in India that permits your business to acknowledge,
-                process, and dispense
-              </div>
+</div>
 
-              <div class="btn-section">
-                <div class="button">
-                  <div class="btn">Read More</div>
-                </div>
-                <a href="https://github.com/bhavishya3102/razorpay_clone">
-                  <i class="icons fa-brands fa-github"></i>
-                </a>
-                <a href="https://bhavishya3102.github.io/razorpay_clone/">
-                  <i class="icons fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="card3">
-            <div class="projectno projectno-right">03</div>
-            <div class="project-content project-content-left">
-              <div class="project-content-skills">
-                <img src="./images/stack/HTML.png" alt="" />
-                <img src="./images/stack/CSS.png" alt="" />
-                <img src="./images/stack/Javascript.svg" alt="" />
-                <img src="./images/stack/NextJsCircle.png" alt="" />
-                <img src="./images/stack/Tailwind.png" alt="" />
-                <img src="./images/stack/NodeJs.svg" alt="" />
-                <img src="./images/stack/MongoDB.svg" alt="" />
-                <img src="./images/stack/Redux.svg" alt="" />
-                <img src="./images/stack/Vercel.svg" alt="" />
-              </div>
-              <div class="project-content-heading">Password Generator</div>
-              <div class="project-content-subhead">
-                Generate strong & secure passwords for all your online accounts
-                with our random password generator. Mix letters, numbers and
-                symbols
-              </div>
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
 
-              <div class="btn-section">
-                <div class="button">
-                  <div class="btn">Read More</div>
-                </div>
-                <a href="https://github.com/bhavishya3102/passwordgenerator">
-                  <i class="icons fa-brands fa-github"></i>
-                </a>
-                <a href="https://bhavishya3102.github.io/passwordgenerator/">
-                  <i class="icons fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="card4">
-            <div class="projectno projectno-left">04</div>
-            <div class="project-content project-content-right">
-              <div class="project-content-skills">
-                <img src="./images/stack/HTML.png" alt="" />
-                <img src="./images/stack/CSS.png" alt="" />
-                <img src="./images/stack/Javascript.svg" alt="" />
-                <img src="./images/stack/NextJsCircle.png" alt="" />
-                <img src="./images/stack/Tailwind.png" alt="" />
-                <img src="./images/stack/NodeJs.svg" alt="" />
-                <img src="./images/stack/MongoDB.svg" alt="" />
-                <img src="./images/stack/Redux.svg" alt="" />
-                <img src="./images/stack/Vercel.svg" alt="" />
-              </div>
-              <div class="project-content-heading">Weather App</div>
-              <div class="project-content-subhead">
-                Use the Weather app on Apple Watch to see the forecast, view a
-                minute-by-minute precipitation chart, get information about
-                severe weather events, monitor air
-              </div>
+</section>
+<!-- work project section ends -->
 
-              <div class="btn-section">
-                <div class="button">
-                  <div class="btn">Read More</div>
-                </div>
-                <a href="https://github.com/bhavishya3102/Weather_app">
-                  <i class="icons fa-brands fa-github"></i>
-                </a>
-                <a href="https://bhavishya3102.github.io/Weather_app/">
-                  <i class="icons fa-solid fa-link"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+<div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Sri-Hkb</h2>
         </div>
-      </div>
-      <!-- ======================================= Skills ========================================= -->
-      <div class="skillsTech">
-      
-        <div class="skills">
-          <div class="skill-Desc">
-            <div class="skill-stack-heading">
-                <span>M</span>e and
-                <br />
-                My Tech Stack
-              </div>
-            <p>
-              🙋‍♂️Hello I am a web developer specializing in building scalable and
-              high-performance applications using React JS. Skilled in frontend
-              technologies such as React.js, Redux, ECMAScript, JavaScript,
-              HTML5, CSS3, Flexbox, and tailwind. Skilled in Backend
-              technologies such as Node.js, express, , Payment Api , Axios.
-            </p>
-            <p>
-              💼 Experience in developing professional websites and applications
-              with a focus on creating seamless user experiences across
-              browsers. Responsibilities include developing user-facing
-              features, building reusable components and libraries, translating
-              designs into high-quality code, and optimizing performance.
-            </p>
-            <p>
-              💡 Continuously learning and staying updated with the latest
-              trends to deliver innovative solutions to complex challenges.
-              Passionate about collaborating and creating remarkable digital
-              experiences.
-            </p>
-          </div>
-          <div class="skill-Desc skill-stack-right">
-            <img
-              src="./images/userAsset/blob vector.png"
-              class="blob-style"
-              alt=""
-            />
-            <img src="./images/stack/HTML.png" class="skill-img" alt="" />
-            <img src="./images/stack/CSS.png" class="skill-img" alt="" />
-            <img src="./images/stack/Javascript.svg" class="skill-img" alt="" />
-            <img src="./images/stack/React.png" class="skill-img" alt="" />
-            <img src="./images/stack/NodeJs.svg" class="skill-img" alt="" />
-            <img src="./images/stack/Redux.svg" class="skill-img" alt="" />
-            <img src="./images/stack/Tailwind.png" class="skill-img" alt="" />
-            <img src="./images/stack/Bootstrap.svg" class="skill-img" alt="" />
-            <img src="./images/stack/Express.png" class="skill-img" alt="" />
-            <img src="./images/stack/Git.svg" class="skill-img" alt="" />
-            <img src="./images/stack/Github.svg" class="skill-img" alt="" />
-            <img src="./images/stack/MongoDB.svg" class="skill-img" alt="" />
-            <img src="./images/stack/Vercel.svg" class="skill-img" alt="" />
-            <img src="./images/stack/ChartJs.svg" class="skill-img" alt="" />
-          </div>
-        </div>
-        <h2>Skills</h2>
-      </div>
-
- 
-      <!-- =========================== contact ======================= -->
-      <div class="contact-section" id="contactme">
-        <h1 class="contact-heading">Contact me</h1>
-        <h1 class="contact-subheading">
-          Questions, Thoughts, or Just want to say hello?
-        </h1>
-        <div class="contact-container">
-          <div class="contact-form">
-            <form action="" class="form">
-              <input
-                type="text"
-                placeholder="Enter your Name"
-                class="formfield"
-              />
-              <input type="email" placeholder="Enter Email" class="formfield" />
-              <input
-                type="text"
-                placeholder="Enter your subject"
-                class="formfield"
-              />
-              <textarea
-                name="message"
-                id=""
-                cols="30"
-                rows="10"
-                class="formfield formfield-textarea"
-                resize="none"
-              >
-Enter your Message</textarea
-              >
-
-              <div class="button" id="contact-btn">
-                <div class="btn">
-                  Send message
-                  <span
-                    ><i class="icons fa-sharp fa-solid fa-paper-plane"></i
-                  ></span>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===========================Footer============================ -->
-      <div class="footer-section">
-        <div class="footer-wrapper container">
-          <div class="footer-faddedtext">Bhavishya Sachdeva</div>
-          <div class="footer-left">
-            <a href="#projects">Project</a>
-            <a href="#skills">Skills</a>
-            <a href="#contactme">Contact Me</a>
-          </div>
-          <div class="footer-right">
-            <a href=""> <i class="icons fa-solid fa-envelope"></i></a>
-            <a href=""> <i class="icons fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="icons fa-brands fa-github"></i></a>
-            <a href=""><i class="icons fa-brands fa-twitter"></i></a>
-          </div>
+        <div class="desc">
+            <h3>Software Developer</h3>
+            <p>Dec 2024 - Present</p>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script
-      src="https://kit.fontawesome.com/58a810656e.js"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var typeData = new Typed(".role", {
-        strings: [
-          "Full Stack Developer",
-          "Web Developer",
-          "UI-UX Designer",
-          "Backend Developer",
-          "Coder",
-        ],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1000,
-      });
-    </script>
-  </body>
+
+
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>CODEHELP </h2>
+        </div>
+        <div class="desc">
+            <h3>Internship Trainee</h3>
+            <p>June 2023 - Oct 2023</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>INeuBytes Technologies</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Development | Internship</h3>
+            <p>June 2023 - Aug 2023</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+  <section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
+        </div>
+
+        <form id="form">
+          <div class="form-group">
+            <div class="field">
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <label for="email_id"></label>
+              <input type="text" name="email_id" id="email_id" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <label for="phone"></label>
+              <input type="text" name="phone" id="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="field">
+              <label for="message"></label>
+              <textarea name="message" id="message" placeholder="Message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+
+          <div class="button-area">
+            <input type="submit" id="button" value="Send Email">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Bhavishya Sachdeva Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 6397632055</p>
+          <p> <i class="fas fa-envelope"></i>bhavishyasachdeva3102@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Saharanpur, Uttar Pradesh, India-247001</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/bhavishya-sachdeva/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/bhavishya3102" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:bhavishyasachdeva3102@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/bhavishya3102" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="#" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/bhavishya-sachdeva/"> Bhavishya Sachdeva</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script> -->
+    <!-- <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script> -->
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+ 
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
 </html>

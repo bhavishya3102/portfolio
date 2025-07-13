@@ -1,0 +1,62 @@
+[
+  {
+    "name": "AI Mock Interview",
+    "desc": "Integrated video recording using the Webcam package, and employed React-Speech Hook to convert spoken answers into text, enhancing the user experience",
+    "image": "aimockinterview",
+    "category": "ReactJS",
+    "links": {
+      "view": "https://ai-mock-interview-nu.vercel.app/",
+      "code": "https://github.com/bhavishya3102/AI_MockInterview"
+    }
+  },
+  {
+    "name": "TechLearn Hub",
+    "desc": "Developed a dynamic Ed Tech platform serving 50+ students, providing students with seamless functionalities for course Purchase, Reviews, Transaction History tracking, and an efficient Cart management system",
+    "image": "techlearn",
+    "category": "ReactJS",
+    "links": {
+      "view": "https://learn-hub-taupe-one.vercel.app/",
+      "code": "https://github.com/bhavishya3102/TechLearnHub"
+    }
+  },
+  {
+    "name": "BookQuest Platform",
+    "desc": "Expanded the BookQuest Web Application, which features a dynamic ebook library with over 20 titles spanning various genres, offering seamless purchase, access to the PDF of ebook after purchase.",
+    "image": "bookquest",
+    "category": "ReactJS",
+    "links": {
+      "view": "https://bookquest-five.vercel.app/",
+      "code": "https://github.com/bhavishya3102/bookquest"
+    }
+  },
+  {
+    "name": "Razorpay Clone",
+    "desc": "Developed a Razorpay Clone using ReactJS, NodeJS, ExpressJS, and MongoDB, enabling users to make payments and manage transactions.",
+    "image": "razorpay",
+    "category": "ReactJS",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/bhavishya3102/razorpay_clone"
+    }
+  },
+  {
+    "name": "Password Generator",
+    "desc": "Developed a Password Generator using ReactJS, enabling users to generate strong and secure passwords based on their preferences.",
+    "image": "password",
+    "category": "ReactJS",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/bhavishya3102/passwordgenerator"
+    }
+  },
+  {
+    "name": "Weather App",
+    "desc": "Developed a Weather App using ReactJS, enabling users to search for weather information based on location.",
+    "image": "weatherapp",
+    "category": "ReactJS",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/bhavishya3102/Weather_app"
+    }
+  }  
+]
